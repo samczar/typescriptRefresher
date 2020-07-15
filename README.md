@@ -68,22 +68,22 @@ amount.valueAsNumber //This cast the string input to number
 Class
 A class is a blue pring for an object.
 
-class Invoice {
+    class Invoice {
 
-client: string;
-details: string;
-amount: number
-constructor(c: string, d: string, a:number){
-this.client = c;
-this.details = d;
-this.amount= a;
-}
+        client: string;
+        details: string;
+        amount: number
+        constructor(c: string, d: string, a:number){
+        this.client = c;
+        this.details = d;
+        this.amount= a;
+    }
 
     format():string{
         return `${this.client} owes ${this.amount} for ${this.details}`
-    }
+        }
 
-}
+    }
 
 const invOne = new Invoice('mario','work on the site', 250)
 
