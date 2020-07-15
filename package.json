@@ -1,0 +1,23 @@
+{
+	"name": "typescriptrefresher",
+	"version": "1.0.0",
+	"description": "refresher for typescript",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "lite-server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/samczar/typescriptRefresher.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/samczar/typescriptRefresher/issues"
+	},
+	"homepage": "https://github.com/samczar/typescriptRefresher#readme",
+	"dependencies": {
+		"lite-server": "^2.5.4"
+	}
+}
