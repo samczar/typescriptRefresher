@@ -98,26 +98,28 @@ This above automatically adds the properties.
 
 Interfaces
 Interface allows us to enforce structures within a class or object
-interface IsPerson {
-name: string;
-age: number;
-speak(a:string):void;
-spend(a:number):number;
-}
 
-const me:IsPerson ={
-name: 'shaun',
-age: 30,
-speak(text: string):void {
-console.log(text)
-},
-spend(amount: number):number {
-console.log('I spent ', amount)
-return amount
-}
-}
+    interface IsPerson {
+        name: string;
+        age: number;
+        speak(a:string):void;
+        spend(a:number):number;
+    }
 
-Generics
+    const me:IsPerson ={
+            name: 'shaun',
+            age: 30,
+            speak(text: string):void {
+            console.log(text)
+        },
+
+            spend(amount: number):number {
+            console.log('I spent ', amount)
+            return amount
+        }
+    }
+
+##Generics
 
 Reuseable blocks of code that can be used with different types
 
